@@ -1,0 +1,73 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family:cursive;
+}
+body{
+background-repeat: no-repeat; 
+background-size: 100%
+}
+header{
+	width: 1027px;
+	margin: 100px auto;
+	height: 233px;
+	background-color: red;
+}
+.contenedor{
+	width: 171px;
+	height: 233px;
+	float:left;
+	-webkit-transition:height .2s;
+}
+#uno{
+	background-color: rgb(99,167,130);
+	}
+#dos{
+	background-color: rgb(24,136,119);
+}
+#tres{
+	background-color: rgb(62,88,95);
+}
+#cuatro{
+	background-color: rgb(244,215,131);
+}
+#cinco{
+	background-color: rgb(140,192,98);
+}
+#seis{
+	background-color: rgb(254,109,84);
+}
+.icon{
+	display:block;
+	margin: 50px auto;
+	background-color: rgba(255,255,255	,.15);
+	padding: 20px;
+	width: 30px;
+	-webkit-border-radius:50%;
+	-webkit-box-shadow: 0px 0px 0px 30px rgba(255,255,255,0);
+	-webkit-transition: box-shadow .3s;
+}
+.text{
+	font-size:1.2em;
+	padding-top: 20px;
+	text-align: center;
+	opacity: .6;
+	color:white;
+	-webkit-transition: padding-top .2s;
+}
+.contenedor:hover{
+	height: 250px;
+}
+.contenedor:hover .text{
+	padding-top: 40px; 
+	opacity: 1;
+}
+.contenedor:hover .icon{
+	-webkit-box-shadow: 0px 0px 0px rgba(255,255,255,.6) ;
+}
+#explorar{
+	margin-left: 500px;
+}
+#miinformacion{
+	color: black;
+}
